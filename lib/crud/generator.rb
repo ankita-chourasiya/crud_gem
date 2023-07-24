@@ -1,4 +1,4 @@
-module CrudGem
+module Crud
   class Generator
     def initialize(class_name)
       @class_name = class_name
