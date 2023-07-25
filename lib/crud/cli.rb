@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 require "thor"
-require "generator"
+require "crud/generator"
 
-module Curd
+module Crud
   class CLI < Thor
     desc "generate CLASS_NAME", "Generate a new Ruby class"
     def generate(class_name)
